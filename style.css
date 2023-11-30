@@ -1,95 +1,81 @@
 /* box-sizing for padding and margin included also removing any default margin and padding   */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    
- background:#070807;
- 
+body {
+  background: #070807;
 }
-
-
 
 /*  */
 .navbar #ulid {
-    list-style-type: none;
-   float: left;
-   margin-left: 500px;
+  list-style-type: none;
+  float: left;
+  margin-left: 500px;
 }
 
-
-.navbar li{
-    display: inline-block;
-    margin-left: 80px;
-    
-    
+.navbar li {
+  display: inline-block;
+  margin-left: 80px;
 }
 /* cursor change to pointer when hover on image */
-header img{
-    width: 80px;
-    height: 70px;
-    cursor: pointer;
-    margin-left: 30px;
-    
+header img {
+  width: 80px;
+  height: 70px;
+  cursor: pointer;
+  margin-left: 30px;
 }
 
 /* font family for list and a tags and its text decoration */
-li, a {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    color:whitesmoke;
-    text-decoration: none;
+li,
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: whitesmoke;
+  text-decoration: none;
 }
-header{
-    display: flex;
-    align-items: center;
-    padding: 5px 15px;
-    border: 5px ;
-    border-radius:20px;
-    margin-top: 15px;
-        
-        /* From https://css.glass */
-    background: rgba(14, 13, 13, 0.807);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-   ;
+header {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  border: 5px;
+  border-radius: 20px;
+  margin-top: 15px;
+
+  /* From https://css.glass */
+  background: rgba(14, 13, 13, 0.807);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
-.cmd>p{
-    text-align: center;
-    margin: 200px  0 35px 0;
-    font-size: 30px;
-    color: rgb(141, 145, 148);
+.cmd > p {
+  text-align: center;
+  margin: 200px 0 35px 0;
+  font-size: 30px;
+  color: rgb(141, 145, 148);
 }
 .greeting p:first-child {
-    color:white;
-    font-size: 65px;
-    text-align: center;
-    margin: 40px 0 35px 0;
+  color: white;
+  font-size: 65px;
+  text-align: center;
+  margin: 40px 0 35px 0;
 }
-.greeting :nth-child(2){
-    color: aqua;
-    font-size: 95px;
-    text-align: center;
-    margin: 25px 0 25px 0;
+.greeting :nth-child(2) {
+  color: aqua;
+  font-size: 95px;
+  text-align: center;
+  margin: 25px 0 25px 0;
 }
-.greeting :nth-child(3){
-    color: #c56f72;
-    font-size: 35px;
-    text-align: center;
-    
+.greeting :nth-child(3) {
+  color: #c56f72;
+  font-size: 35px;
+  text-align: center;
 }
-.greeting :nth-child(4){
-    color: #6f96c5;
-    font-size: 35px;
-    text-align: center;
-    margin: 45px  250px;
-   
-   
-    
+.greeting :nth-child(4) {
+  color: #6f96c5;
+  font-size: 35px;
+  text-align: center;
+  margin: 45px 250px;
 }
-
-

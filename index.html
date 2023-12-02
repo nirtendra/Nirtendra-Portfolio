@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nirtendra Portfolio</title>
 
+    <!-- stylesheet link tag -->
     <link href="./style.css" rel="stylesheet" type="text/css">
+
+
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,41 +18,124 @@
 </head>
 
 <body>
-
-    <header>
-
-        <img class="logo" src="images/logo.png" alt="my-logo">
-        <nav class="navbar">
-            <ul id="ulid">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="Projects.html">Projects</a></li>
-                <li><a href="cv.html">CV</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul>
+            <li> <a href="#home">home</a></li>
+            <li><a href="#about">about</a> </li>
+            <li> <a href="#skills">skills</a></li>
+            <li> <a href="#projects">projects</a></li>
+            <li> <a href="#contact">contact</a></li>
 
 
+        </ul>
 
-    <div id="main-page">
-        <div id="back-img">
-            <!-- <img src="./images/pic.png" alt="my-img"/> -->
+    </nav>
+
+
+    <div id="main">
+        <div id="left-box">
+
+            <h2>Hi I am </h2>
+            <h1> Nirtendra yadav</h1>
+            <p>Front End Developer</p>
+
         </div>
-        <div class="cmd">
-            <p>Web: $ cd /home/.yadav </p>
-        </div>
-        <div class="greeting">
-            <p>Hi, I'm </p>
-            <p>NIRTENDRA YADAV</p>
-            <p>Front-End Developer</p>
-            <p>
-                Hello there! I'm thrilled to have you visit my digital Portfolio. A passionate Front-End Developer with
-                a love for crafting seamless and visually stunning digital experiences.
-            </p>
+        <div id="righ-box">
+            <img src="./images/atom.png" alt="personal-img">
         </div>
 
     </div>
+
+    <div id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I'm a passionate front-end developer with a strong foundation in HTML, CSS, and
+            JavaScript. I enjoy creating visually appealing and user-friendly websites that provide a seamless
+            experience. My goal is to contribute to innovative projects and collaborate with like-minded individuals to
+            make a positive impact on the web.
+            I specialize in crafting responsive and intuitive user interfaces using cutting-edge technologies such
+            as HTML5, CSS3, and JavaScript. My goal is to not only meet but exceed user expectations by blending
+            creativity with functionality. I enjoy staying updated with the latest design trends and technologies to
+            ensure that the projects I work on are at the forefront of the digital landscape.</p>
+        Hello there! I'm Nirtendra Yadav, a passionate Front-End Developer with a keen eye for creating seamless
+        and visually appealing digital experiences. My journey in the world of web development has been an
+        exciting exploration of turning ideas into interactive and user-friendly websites.</p>
+    </div>
+
+    <section id="skills">
+        <div id="skills-column1">
+            <h2>Front End Skills</h2>
+            <ul class="skill-ul">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Responsive Design</li>
+
+            </ul>
+        </div>
+
+        <div id="skills-column2">
+            <h2>Other Skills</h2>
+            <ul class="skill-ul">
+                <li>Java</li>
+                <li>Python</li>
+                <li>Git</li>
+                <li>Problem Solving</li>
+                <li>Team Collaboration</li>
+
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <div class="project">
+            <img src="./images/linkedin.png" alt="Project 1">
+            <h2>Project 1</h2>
+            <p>Description 1</p>
+        </div>
+
+        <div class="project">
+            <img src="./images/linkedin.png" alt="Project 2">
+            <h2>Project 2</h2>
+            <p>Description 2</p>
+        </div>
+
+        <div class="project">
+            <img src="./images/slack.png" alt="Project 3">
+            <h2>Project 3</h2>
+            <p>Description 3</p>
+        </div>
+
+        <div class="project">
+            <img src="./images/logo.png" alt="Project 4">
+            <h2>Project 4</h2>
+            <p>Description 4</p>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    
+
+
+
+
 
 
     <script src="./script.js"></script>

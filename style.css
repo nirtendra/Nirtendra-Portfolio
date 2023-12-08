@@ -17,6 +17,10 @@ nav {
   background-color: rgba(12, 15, 31, 0.607);
   overflow: hidden;
   position: sticky;
+ 
+}
+ul{
+  display: flex;
 }
 
 nav ul li {
@@ -230,6 +234,11 @@ li a:hover {
   
 
 @media only screen and (max-width: 600px) {
+   ul{
+    flex-direction: column;  
+   }
+  
+  
   #left-box {
     width: 100%; /* Take the whole width on small screens */
     margin: 10px 0 85px 0; /* Add some margin for spacing */

@@ -5,7 +5,11 @@
 }
 
 body {
-  background-color: rgb(11, 17, 17);
+  background-image: url(./images/bg11.jpg);
+  background-size:cover;
+  backdrop-filter: blur(75px)
+  
+  
 }
 
 /* Navigation styles */
@@ -13,21 +17,24 @@ nav {
   border: 2px solid rgb(34, 175, 197);
   box-shadow: 0px 5px 15px rgba(4, 61, 90, 0.7);
   border-radius: 20px;
-  min-height: 5vw;
   background-color: rgba(12, 15, 31, 0.607);
   overflow: hidden;
   position: sticky;
+  
+ 
  
 }
-ul{
+.navul{
   display: flex;
+  justify-content: center;
 }
 
 nav ul li {
   list-style: none;
   float: left;
   text-align: center;
-  padding: 16px 33px;
+  padding: 10px 18px;
+ 
 }
 
 li a {
@@ -97,15 +104,28 @@ li a:hover {
 #about p {
   font-size: 1.5rem;
   margin-top: 10px;
+  padding: 25px 50px;
 }
 
 
 
 #left-about img {
-    max-width: 50%;
-    height: auto;
-    width: 100%; /* Make the image responsive and fill its parent's width */
+   
+    height: 70vh;
+    width: auto; /* Make the image responsive and fill its parent's width */
+   
+  
   }
+
+  
+  .btn img {
+    float: right;
+      max-width: 10%; /* Ensures the logo/icon fits the container */
+      height: auto; /* Maintains the aspect ratio of the logo/icon */
+
+     margin-top: 11px;
+    }
+  
   
   #skills {
     width: 80vw;
@@ -125,13 +145,23 @@ li a:hover {
     font-size: 2.5rem;
     color: #baadad;
   }
+
+
+  .icon{
+    width: 40px;
+    height:40px;
+    margin: 5px;
+    
+  }
   
   #skills-column1,
   #skills-column2 {
     width: 48%;
     border: 2px solid  rgb(194, 215, 216);
     text-align: center;
-    margin-top: 5px;
+    margin-top: 10px;
+    justify-content: center;
+   
   }
   
   #skills h2 {
@@ -145,9 +175,10 @@ li a:hover {
   
   .skill-ul {
     text-align: center;
-    width: 80%;
+    /* width: 80%; */
     list-style: none;
-    margin-top: 15px;
+    margin-top: 20px;
+    justify-content: center;
   }
   
   #projects {
@@ -234,10 +265,18 @@ li a:hover {
   
 
 @media only screen and (max-width: 600px) {
-   ul{
+  .navul{
     flex-direction: column;  
    }
   
+   .btn{
+    text-align: center;
+   }
+   .btn img{
+    float: none;
+ 
+   
+   }
   
   #left-box {
     width: 100%; /* Take the whole width on small screens */
@@ -255,6 +294,12 @@ li a:hover {
     position: relative;
   }
 
+
+  #left-about>img{
+    height: 40vh;
+    width: auto;
+
+  }
   #righ-box > img {
     max-width: 50%;
     height: auto;
@@ -264,6 +309,12 @@ li a:hover {
   #about {
     margin-top: 55px;
     margin-bottom: 25px;
+  }
+
+  #about p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding: 5px 2px;
   }
 
   section#skills {

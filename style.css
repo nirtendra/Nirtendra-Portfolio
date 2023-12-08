@@ -7,7 +7,8 @@
 body {
   background-image: url(./images/bg11.jpg);
   background-size:cover;
-  backdrop-filter: blur(75px)
+  backdrop-filter: blur(75px);
+  
   
   
 }
@@ -17,7 +18,7 @@ nav {
   border: 2px solid rgb(34, 175, 197);
   box-shadow: 0px 5px 15px rgba(4, 61, 90, 0.7);
   border-radius: 20px;
-  background-color: rgba(12, 15, 31, 0.607);
+  background-color: rgba(23, 28, 55, 0.607);
   overflow: hidden;
   position: sticky;
   
@@ -42,13 +43,13 @@ li a {
   display: block;
   padding: 15px;
   /* text-align: center; */
-  color: aliceblue;
+  color: rgb(185, 224, 199);
   text-transform: uppercase;
 }
 
 li a:hover {
-  background-color: #c2cfe2;
-  color: rgb(7, 6, 6);
+  background-color: #45a142ce;
+  color: rgb(8, 24, 8);
 }
 
 
@@ -57,7 +58,7 @@ li a:hover {
   height: 65vh;
   text-align: center;
   line-height: 1.5;
-  color: #baadad;
+  color: rgba(52, 39, 6, 0.877);
 }
 
 #righ-box {
@@ -91,9 +92,10 @@ li a:hover {
   min-height: 10vw;
   margin: 145px auto 20px auto;
   border: 2px solid rgb(128, 42, 42);
-  padding: 30px;
+  border-radius: 10px;
+  padding: 35px;
   text-align: center;
-  color: #baadad;
+  color:rgba(52, 39, 6, 0.877);
 }
 
 #right-about > h1 {
@@ -131,19 +133,21 @@ li a:hover {
     width: 80vw;
     min-height: 30vw;
     margin: 20px auto;
-    border: 2px solid rgb(215, 220, 220);
+  
     padding: 20px;
     text-align: center;
     display: flex;
     justify-content: space-between;
-    color: #baadad;
+    color: rgba(52, 39, 6, 0.877);
+    
   }
   
   .skills-h1 {
     text-align: center;
     margin-bottom: 10px;
     font-size: 2.5rem;
-    color: #baadad;
+    color: rgba(52, 39, 6, 0.877);
+
   }
 
 
@@ -157,10 +161,11 @@ li a:hover {
   #skills-column1,
   #skills-column2 {
     width: 48%;
-    border: 2px solid  rgb(194, 215, 216);
+    border: 2px solid  rgb(13, 18, 18);
     text-align: center;
     margin-top: 10px;
-    justify-content: center;
+   
+    border-radius: 15px;
    
   }
   
@@ -188,12 +193,14 @@ li a:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    color: #baadad;
+    color: rgba(52, 39, 6, 0.877);
+   
   }
   
   .project {
     border: 2px solid rgb(177, 208, 211);
     padding: 20px;
+    border-radius: 30px;
   }
   
   .project img {
@@ -215,7 +222,7 @@ li a:hover {
     width: 80vw;
     margin: 20px auto;
     text-align: center;
-    color: #baadad;
+    color: rgba(52, 39, 6, 0.877);
   }
   
   #contact > h1 {
@@ -242,7 +249,7 @@ li a:hover {
     margin-top: 14px;
     margin-left: 60px;
     display: block;
-    color: #3c2828;
+    color: #1e0a0a;
   }
   
   #contact input,

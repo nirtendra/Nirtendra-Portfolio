@@ -5,13 +5,12 @@
 }
 
 body {
-  background-image: url(./images/bg11.jpg);
-  background-size:cover;
-  backdrop-filter: blur(75px);
-  
-  
-  
+  background-image: radial-gradient( rgb(89, 165, 129) 5%, rgb(29, 54, 127)90%);
+  font-family:Arial, Helvetica, sans-serif
 }
+  
+
+
 
 /* Navigation styles */
 nav {
@@ -54,42 +53,56 @@ li a:hover {
 
 
 #left-box {
-  display: inline-block;
+  display: block;
   height: 65vh;
   text-align: center;
-  line-height: 1.5;
-  color: rgba(52, 39, 6, 0.877);
+ 
+  line-height: 1.2;
+  color: rgba(167, 129, 34, 0.877);
 }
 
-#righ-box {
+/* #righ-box {
   
   float: right;
   border: 5px solid rgb(168, 183, 203);
   text-align: center;
   box-shadow: 10px 10px 25px rgba(4, 61, 90, 0.7);
+} */
+
+
+#home{
+  text-align: center;
+ display: block;
+ 
 }
 
-
-
 #left-box > h1 {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 4.5rem;
+  color: rgb(166, 186, 203);
   
 }
 
 #left-box > h2 {
-  margin-top: 85px;
+  margin-top: 120px;
   font-size: 3.5rem;
+  color: #baadad;
 }
 
 #left-box > p {
   font-size: 25px;
-  color: #b82929;
+  color: #040202;
+  margin-top: 15px;
+}
+.code-icon{
+  width:100px;
+  height: auto;
+  margin-top: 50px;
 }
 
 #about {
   width: 85vw;
-  min-height: 10vw;
+ 
   margin: 145px auto 20px auto;
   border: 2px solid rgb(128, 42, 42);
   border-radius: 10px;
@@ -131,13 +144,13 @@ li a:hover {
   
   #skills {
     width: 80vw;
-    min-height: 30vw;
+    min-height: 30vh;
     margin: 20px auto;
   
     padding: 20px;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     color: rgba(52, 39, 6, 0.877);
     
   }
@@ -191,7 +204,7 @@ li a:hover {
     margin: 15px auto;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns:1fr 1fr;
     gap: 20px;
     color: rgba(52, 39, 6, 0.877);
    
@@ -288,18 +301,19 @@ li a:hover {
   #left-box {
     width: 100%; /* Take the whole width on small screens */
     margin: 10px 0 85px 0; /* Add some margin for spacing */
-    max-height: 75vw;
+    max-height: 43vh;
     line-height: 1;
   }
 
-  #righ-box {
+  /* #righ-box {
     width: 100vw;
    
     float: none;
 
     top: 15px;
     position: relative;
-  }
+  } */
+
 
 
   #left-about>img{
@@ -351,17 +365,38 @@ li a:hover {
   }
 }
 
-@media only screen and (min-width: 601px) {
-  #left-box {
-    width: 48%; /* Take 48% of the width on larger screens */
-    margin: 55px 0 65px 3%; /* Adjust margin for two columns */
-  }
 
-  #righ-box {
+footer{
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  
+  
+}
+.footerbox{
+  margin-top: 50px;
+}
+
+.footerbox li{
+ 
+  margin-right: 20px;
+  display: inline;
+}
+
+.footer-icon{
+  width: 30px;
+  height: auto;
+}
+
+
+@media only screen and (min-width: 601px) {
+
+
+  /* #righ-box {
     width: 35%; 
     margin-top: 80px;
     margin-right: 80px;
-  }
+  } */
 
   #righ-box > img {
     max-width: 50%;
